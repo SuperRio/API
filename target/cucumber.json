@@ -1,0 +1,64 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "HTTP request using GET",
+        "description": "",
+        "id": "get-response;http-request-using-get",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2552684804,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Iam a normal user",
+            "match": {
+              "location": "StepDefinition.iam_a_normal_user()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71385,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I hit the system with GIT",
+            "match": {
+              "location": "StepDefinition.i_hit_the_system_with_GIT()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68923,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I shall see all companies details",
+            "match": {
+              "location": "StepDefinition.i_shall_see_all_companies_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "GET Response",
+    "description": "",
+    "id": "get-response",
+    "keyword": "Feature",
+    "uri": "D:/Work/API Project/API/src/test/resources/features/get.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GIT"
+      }
+    ]
+  }
+]
