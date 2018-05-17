@@ -39,21 +39,21 @@ formatter.match({
   "location": "StepDefinition.iam_a_normal_user()"
 });
 formatter.result({
-  "duration": 2552684804,
+  "duration": 2851559962,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_hit_the_system_with_GIT()"
 });
 formatter.result({
-  "duration": 71385,
+  "duration": 73436,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_shall_see_all_companies_details()"
 });
 formatter.result({
-  "duration": 68923,
+  "duration": 767235721,
   "status": "passed"
 });
 });
